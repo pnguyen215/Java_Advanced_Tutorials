@@ -1,0 +1,11 @@
+- Java Collection 
+
+	+ Collection
+		
+			* List: elements can same, include in: ArrayList, LinkedList, Vector, ...
+			* Set: elements is different, include in: LinkedHashSet, TreeSet, 
+			* Queue: include in: LinkedList
+			
+			
+	+ Map: key and value, include in: HashMap, TreeMap, ...
+	

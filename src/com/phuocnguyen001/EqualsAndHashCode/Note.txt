@@ -1,0 +1,3 @@
+- We using function equals or hasCode to compare object together! 
+
++ Compare to: a pair of id, name, .... (all of pairs to compare is attributed)

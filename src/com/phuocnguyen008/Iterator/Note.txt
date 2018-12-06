@@ -1,0 +1,6 @@
+- We using interface Iterator to loop elements for List, Set, Queue, so print all of elements on screen.
+- Why do you use Iterator? 
+	-> When you want to remove element from list, so we using Iterator is better than for-each loop
+	
+- When you compare or remove between elements together, using override Comparator<> or Comparable<> and 
+	override hasCode()

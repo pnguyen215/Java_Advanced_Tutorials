@@ -1,0 +1,1 @@
+- We using LinkedList to better than ArrayList about add or remove element!

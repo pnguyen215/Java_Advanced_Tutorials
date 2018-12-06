@@ -1,0 +1,1 @@
+- To format number in java, we using two library: NumberFormat and DecimalFormatm, to format this number 

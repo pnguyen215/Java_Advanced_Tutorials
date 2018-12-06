@@ -1,0 +1,1 @@
+- All of function of Vector is Synchronization, so it has lower performance. 

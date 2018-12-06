@@ -1,0 +1,24 @@
+
+- All of elements will don't change position when you enter value for each object 
+- To remove element in LinkedHashSet, we need add function hashCode and equals
+- In Interface Set can not sort each elements!
+- So, then you want to sort, you will convert all of list on Set collection to List.
+- In this case: 
+
+
+		"Person per1 = new Person(3, "A");
+		Person per2 = new Person(5, "H");
+		Person per3 = new Person(2, "C");
+		Person per4 = new Person(1, "G");
+
+		// Declare Set
+		Set<Person> listSet = new HashSet<Person>();
+		listSet.add(per1);
+		listSet.add(per2);
+		listSet.add(per3);
+		listSet.add(per4);
+		// Convert to List
+		List<Person> list = new ArrayList<Person>();
+		for (Person person : listSet) {
+			list.add(person);
+		}"

@@ -1,0 +1,7 @@
+- We using interface Comparable to override function compareTo and after that, we can sort a lot of
+	objects by attributed: id, name, ...
+	
+- How to use it? 
+	- On this class, implements Comparable<Type_Object>, go to override function compareTo
+	- In this case: on Person class, to compare some object together about id (increase - decrease)
+							on Student class, to compare some object together about name (increase - decrease)

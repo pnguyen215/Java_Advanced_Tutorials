@@ -1,0 +1,4 @@
+- Queue is set of elements the same to order. 
+- The  element go first so it's first position.
+- The next element go next so it's next position.
+- The last element go last times so it's last position.
