@@ -13,7 +13,7 @@ public class Main {
 		 * create new Person object
 		 */
 		Person person = new Person(1, "PhuocNguyen", "398 Le Van Luong", 21);
-		Person person2 = new Person(1, "PhuocNguyen", "398 Le Van Luong", 22);
+		Person person2 = new Person(2, "PhuocNguyen", "398 Le Van Luong", 22);
 		/*
 		 * create new method on file
 		 */

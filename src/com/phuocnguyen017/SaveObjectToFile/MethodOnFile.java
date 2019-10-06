@@ -12,21 +12,6 @@ public class MethodOnFile {
 	public MethodOnFile() {
 	}
 
-	public void writeFile(Person person) throws IOException {
-
-		File file = new File("SaveObject.txt");
-		if (!file.exists()) {
-			FileOutputStream fileOutputStream = new FileOutputStream(file, true); /* Permission to override file */
-			ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
-			objectOutputStream.writeObject(person);/* write object to file */
-			fileOutputStream.close();
-			objectOutputStream.close();
-		} else {
-			file.delete();
-			System.out.println("Can not write to file!");
-		}
-	}
-
 	public Person readFile(String nameFile) throws IOException, ClassNotFoundException {
 		Person person;
 		File file = new File(nameFile);
@@ -41,5 +26,21 @@ public class MethodOnFile {
 			return null;
 		}
 
+	}
+
+	public void writeFile(Person person) throws IOException {
+
+		File file = new File("SaveObject.txt");
+		if (!file.exists()) {
+			file.createNewFile(); // creating new file
+			FileOutputStream fileOutputStream = new FileOutputStream(file, true); /* Permission to override file */
+			ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
+			objectOutputStream.writeObject(person);/* write object to file */
+			fileOutputStream.close();
+			objectOutputStream.close();
+		} else {
+			System.out.println("Can not write to file!");
+			file.delete();
+		}
 	}
 }
